@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Lucida Console', monospace;
+  font-size: 18px;
+}
+
+.fullscreen {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.terminal {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+
+}
+
+.prompt {
+  float: left;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.command {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  
+  font-family: 'Lucida Console', monospace;
+  font-size: 18px;
+  outline: none;
+  padding-left: 125px;
+  width: 75%;
+}
+
+.output {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
